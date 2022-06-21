@@ -2,8 +2,7 @@ PORT = 443
 
 # name -> secret (32 hex chars)
 USERS = {
-    "tg":  "00000000000000000000000000000001",
-    # "tg2": "0123456789abcdef0123456789abcdef",
+    "tg":  "65e4b057b44a07fad14d660ee4a5d201"
 }
 
 MODES = {
@@ -21,7 +20,7 @@ MODES = {
 
 # The domain for TLS mode, bad clients are proxied there
 # Use random existing domain, proxy checks it on start
-# TLS_DOMAIN = "www.google.com"
+TLS_DOMAIN = "yandex.ru"
 
 # Tag for advertising, obtainable from @MTProxybot
-# AD_TAG = "3c09c680b76ee91a4c25ad51f742267d"
+AD_TAG = "0855c56d9efcd6e464438060934426fb"
