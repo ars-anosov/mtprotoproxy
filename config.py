@@ -20,7 +20,7 @@ MODES = {
 
 # The domain for TLS mode, bad clients are proxied there
 # Use random existing domain, proxy checks it on start
-TLS_DOMAIN = "yandex.ru"
+TLS_DOMAIN = "habr.com"
 
 # Tag for advertising, obtainable from @MTProxybot
 AD_TAG = "0855c56d9efcd6e464438060934426fb"
